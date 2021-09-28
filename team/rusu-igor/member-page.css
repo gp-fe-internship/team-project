@@ -1,5 +1,6 @@
 body {
   background-color: #dfdfdf;
+  font-family: "Ubuntu", sans-serif;
 }
 .container {
   display: flex;
@@ -9,12 +10,13 @@ body {
 
 .header {
   align-self: normal;
+  font-family: "Kanit", sans-serif;
 }
 .header-logo {
   background-color: rgb(34, 144, 34);
   font-weight: bold;
   border-radius: 50%;
-  padding: 10px;
+  padding: 13px;
   color: wheat;
   margin-left: 10px;
 }
