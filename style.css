@@ -20,7 +20,7 @@
 }
 
 .hero-block {
-  min-height: 650px;
+  min-height: 350px;
   background-color: lightgray;
 }
 
@@ -81,7 +81,6 @@
   border-radius: 50%;
 }
 .member-description {
-  margin-top: 15px; /*not sure if to use padding or margin in such cases */
   text-align: center;
 }
 .card-link {

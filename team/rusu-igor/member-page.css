@@ -1,5 +1,6 @@
 body {
   background-color: #dfdfdf;
+  font-family: "Ubuntu", sans-serif;
 }
 .container {
   display: flex;
@@ -9,12 +10,13 @@ body {
 
 .header {
   align-self: normal;
+  font-family: "Kanit", sans-serif;
 }
 .header-logo {
   background-color: rgb(34, 144, 34);
   font-weight: bold;
   border-radius: 50%;
-  padding: 10px;
+  padding: 13px;
   color: wheat;
   margin-left: 10px;
 }
@@ -26,11 +28,14 @@ body {
 }
 
 .avatar {
+  display: flex;
+  justify-content: center;
   transform: translateY(-50%);
 }
 
 .avatar img {
-  max-width: 220px;
+  min-width: 100px;
+  max-width: 25%;
   border-radius: 50%;
   border: 2px dashed green;
 }
@@ -39,5 +44,4 @@ body {
   font-size: 17px;
   max-width: 250px;
   padding-bottom: 50px;
-  margin-top: -100px;
 }
